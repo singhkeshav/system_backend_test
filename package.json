@@ -1,0 +1,34 @@
+{
+  "name": "backend-test",
+  "version": "1.0.0",
+  "description": "this is a system test it's generate sketch file ",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js || nodemon app.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksthakur37207/test.git"
+  },
+  "keywords": [
+    "keshav",
+    "or",
+    "kalu"
+  ],
+  "author": "Er.keshav singh/kalu",
+  "license": "SEE LICENSE IN KESHAV",
+  "bugs": {
+    "url": "https://github.com/ksthakur37207/test/issues"
+  },
+  "homepage": "https://github.com/ksthakur37207/test#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.4.3",
+    "validator": "^10.10.0"
+  }
+}
